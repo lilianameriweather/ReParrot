@@ -11,19 +11,19 @@ I had the opportunity to handle both Server Side and Client Side. Below you will
 
 • Leveraged user-based permission to allow organizations to manage their auto service content through add/edit forms and delete buttons. 
 
-● Created the necessary Stored Procedures in SQL utilizing joins and foreign keys. 
+• Created the necessary Stored Procedures in SQL utilizing joins and foreign keys. 
 
-● Built multiple API endpoints with .NET using C# to enable users to read and write to the database as desired and tested with Postman REST client. 
+• Built multiple API endpoints with .NET using C# to enable users to read and write to the database as desired and tested with Postman REST client. 
 
 • Leveraged front-end validation, model binding, and back-end database stored procedures to ensure the integrity of the application data. 
 
-● Utilized styling with CSS and Bootstrap. 
+• Utilized styling with CSS and Bootstrap. 
 
-● Followed proper naming convention and casing to avoid compiler issues with team member’s code. 
+• Followed proper naming convention and casing to avoid compiler issues with team member’s code. 
 
-● Maintained workflow using GitBash and GitHub for repo management. 
+• Maintained workflow using GitBash and GitHub for repo management. 
 
-● Created new branches to maintain organization throughout the project. 
+• Created new branches to maintain organization throughout the project. 
 
 • Collaborated with team members on code reviews and merged pull requests using Git and Github to provide and receive feedback for code optimization. 
 
