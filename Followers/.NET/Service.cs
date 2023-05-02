@@ -1,6 +1,6 @@
-﻿using Sabio.Data.Providers;
-using Sabio.Models.Domain.Services;
-using Sabio.Models;
+﻿using Reparrot.Data.Providers;
+using Reparrot.Models.Domain.Services;
+using Reparrot.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -8,15 +8,15 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Models.Domain.Followers;
-using Sabio.Data;
-using Sabio.Models.Domain;
-using Sabio.Services.Interfaces;
-using Sabio.Models.Domain.Users;
+using Reparrot.Models.Domain.Followers;
+using Reparrot.Data;
+using Reparrot.Models.Domain;
+using Reparrot.Services.Interfaces;
+using Reparrot.Models.Domain.Users;
 using System.Reflection;
-using Sabio.Models.Domain.Organizations;
+using Reparrot.Models.Domain.Organizations;
 
-namespace Sabio.Services
+namespace Reparrot.Services
 {
     public class FollowerService : IFollowerService
     {
