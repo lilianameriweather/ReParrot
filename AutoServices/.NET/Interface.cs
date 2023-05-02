@@ -1,13 +1,13 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.Services;
-using Sabio.Models.Requests.AutoServices;
+﻿using Reparrot.Models;
+using Reparrot.Models.Domain.Services;
+using Reparrot.Models.Requests.AutoServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Services.Interfaces
+namespace Reparrot.Services.Interfaces
 {
     public interface IAutoServiceService
     {
