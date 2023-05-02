@@ -9,7 +9,6 @@ using Reparrot.Models;
 using Reparrot.Web.Models.Responses;
 using System;
 using Reparrot.Models.Domain.Followers;
-using SendGrid;
 using Reparrot.Models.Domain;
 
 namespace Reparrot.Web.Api.Controllers
