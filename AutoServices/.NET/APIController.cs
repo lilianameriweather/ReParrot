@@ -1,21 +1,21 @@
-﻿using Microsoft.AspNetCore.Cors.Infrastructure;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Models.Domain.Services;
-using Sabio.Models;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Controllers;
-using Sabio.Web.Models.Responses;
-using Sabio.Web.StartUp;
+using Reparrot.Models.Domain.Services;
+using Reparrot.Models;
+using Reparrot.Services;
+using Reparrot.Services.Interfaces;
+using Reparrot.Web.Controllers;
+using Reparrot.Web.Models.Responses;
+using Reparrot.Web.StartUp;
 using System;
-using Sabio.Models.Requests.AutoServices;
+using Reparrot.Models.Requests.AutoServices;
 using Microsoft.AspNetCore.Authorization;
-using Sabio.Models.Domain.UserVehicles;
+using Reparrot.Models.Domain.UserVehicles;
 using System.Collections.Generic;
 
-namespace Sabio.Web.Api.Controllers
+namespace Reparrot.Web.Api.Controllers
 {
     [Route("api/autoservices")]
     [ApiController]
