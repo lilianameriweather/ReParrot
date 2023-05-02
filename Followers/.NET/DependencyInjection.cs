@@ -4,19 +4,19 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Sabio.Data;
-using Sabio.Models.Interfaces;
-using Sabio.Services;
-using Sabio.Services.Interfaces;
-using Sabio.Web.Api.Hubs;
-using Sabio.Web.Api.StartUp.DependencyInjection;
-using Sabio.Web.Core.Services;
+using Reparrot.Data;
+using Reparrot.Models.Interfaces;
+using Reparrot.Services;
+using Reparrot.Services.Interfaces;
+using Reparrot.Web.Api.Hubs;
+using Reparrot.Web.Api.StartUp.DependencyInjection;
+using Reparrot.Web.Core.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Sabio.Web.StartUp
+namespace Reparrot.Web.StartUp
 {
     public class DependencyInjection
     {
