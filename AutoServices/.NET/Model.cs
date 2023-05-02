@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
-namespace Sabio.Models.Domain.Services
+namespace Reparrot.Models.Domain.Services
 {
     public class AutoService
 	{
