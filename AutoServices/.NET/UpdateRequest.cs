@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Sabio.Models.Requests.AutoServices
+namespace Reparrot.Models.Requests.AutoServices
 {
     public class AutoServiceUpdateRequest : AutoServiceAddRequest, IModelIdentifier
     {
