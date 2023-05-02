@@ -1,4 +1,4 @@
-﻿using Sabio.Data.Providers;
+﻿using Reparrot.Data.Providers;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -6,15 +6,15 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Sabio.Models.Requests.AutoServices;
-using Sabio.Models.Domain.Services;
-using Sabio.Data;
-using Sabio.Models;
-using Sabio.Services.Interfaces;
-using Sabio.Models.Domain;
-using Sabio.Models.Domain.Organizations;
+using Reparrot.Models.Requests.AutoServices;
+using Reparrot.Models.Domain.Services;
+using Reparrot.Data;
+using Reparrot.Models;
+using Reparrot.Services.Interfaces;
+using Reparrot.Models.Domain;
+using Reparrot.Models.Domain.Organizations;
 
-namespace Sabio.Services
+namespace Reparrot.Services
 {
     public class AutoServiceService : IAutoServiceService
     {
