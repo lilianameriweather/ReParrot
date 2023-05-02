@@ -1,5 +1,5 @@
-﻿using Sabio.Models;
-using Sabio.Models.Domain.Followers;
+﻿using Reparrot.Models;
+using Reparrot.Models.Domain.Followers;
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
@@ -9,9 +9,9 @@ using System.Net.NetworkInformation;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-using Sabio.Models.Domain;
+using Reparrot.Models.Domain;
 
-namespace Sabio.Services.Interfaces
+namespace Reparrot.Services.Interfaces
 {
     public interface IFollowerService
     {
