@@ -1,18 +1,18 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Sabio.Services.Interfaces;
-using Sabio.Services;
-using Sabio.Web.Controllers;
+using Reparrot.Services.Interfaces;
+using Reparrot.Services;
+using Reparrot.Web.Controllers;
 using Microsoft.AspNetCore.Authorization;
-using Sabio.Models;
-using Sabio.Web.Models.Responses;
+using Reparrot.Models;
+using Reparrot.Web.Models.Responses;
 using System;
-using Sabio.Models.Domain.Followers;
+using Reparrot.Models.Domain.Followers;
 using SendGrid;
-using Sabio.Models.Domain;
+using Reparrot.Models.Domain;
 
-namespace Sabio.Web.Api.Controllers
+namespace Reparrot.Web.Api.Controllers
 {
     [Route("api/followers")]
     [ApiController]
