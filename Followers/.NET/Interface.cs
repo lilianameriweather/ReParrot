@@ -15,17 +15,20 @@ namespace Reparrot.Services.Interfaces
 {
     public interface IFollowerService
     {
+        public Follower GetByUserId(int userId);
+        
         public void AddFollower(int orgId, int userId);
+        
+        public int GetCountByOrgId(int organizationId);
+
         public void DeleteFollower(int orgId, int userId);
-
-        public Paged<Follower> GetByOrgIdPaginated(int organizationId, int pageIndex, int pageSize);
-
-       public Follower GetByUserId(int userId);
-
+        
         public bool GetByIds(int organizationId, int userId);
 
         public Paged<Summary> GetSummaryPaginated(int pageIndex, int pageSize);
+        
+        public Paged<Follower> GetByOrgIdPaginated(int organizationId, int pageIndex, int pageSize);
 
-        public int GetCountByOrgId(int organizationId);
+
     }
 }
