@@ -66,7 +66,6 @@ const defaultService = {
   },
 };
 
-//----------------Functional-Component--------------------
 
 function AutoServiceViewMore(props) {
   const { state } = useLocation();
