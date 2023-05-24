@@ -3,7 +3,7 @@ import * as serviceHelpers from "./serviceHelpers";
 
 const endpoint = `${serviceHelpers.API_HOST_PREFIX}/api/followers`; 
 
-//follow count
+//GET FOLLOW COUNT
 const getByOrgId = (orgId) => {
     const config = {
       method: "GET",
@@ -17,7 +17,7 @@ const getByOrgId = (orgId) => {
       .catch(serviceHelpers.onGlobalError);
   };
 
-// follow status
+// GET FOLLOW STATUS
 const getBoolByIds = (orgId, userId) => {
     const config = {
       method: "GET",
@@ -31,7 +31,7 @@ const getBoolByIds = (orgId, userId) => {
       .catch(serviceHelpers.onGlobalError);
   };
 
-  //follow request
+  //FOLLOW REQUEST
   const addFollower = (orgId) => {
     const config = {
       method: "POST",
@@ -45,7 +45,7 @@ const getBoolByIds = (orgId, userId) => {
       .catch(serviceHelpers.onGlobalError);
   };
 
-  //remove follower
+  //REMOVE FOLLOW
   const removeFollower = (orgId) => {
     const config = {
       method: "DELETE",
