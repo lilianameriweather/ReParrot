@@ -13,7 +13,7 @@ BEGIN
 
 
 	SELECT [Id]
-		  ,[Name]
+		,[Name]
 	  FROM [dbo].[ServiceTypes]
 
 
