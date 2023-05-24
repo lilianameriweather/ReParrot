@@ -1,10 +1,11 @@
 import React from "react";
-import { Button, Card, Row, Col, Image, ListGroup } from "react-bootstrap";
 import PropTypes from "prop-types";
 import logger from "sabio-debug";
-import { useNavigate } from "react-router-dom";
-import { Clipboard, Info, Trash, DollarSign, Clock } from "react-feather";
 import "./autoService.css";
+
+import { useNavigate } from "react-router-dom";
+import { Button, Card, Col, ListGroup, Image, Row } from "react-bootstrap";
+import { Clipboard, Clock, DollarSign, Info, Trash } from "react-feather";
 
 const _logger = logger.extend("AutoService");
 
