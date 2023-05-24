@@ -1,18 +1,20 @@
+import "./autoService.css";
+import "rc-pagination/assets/index.css";
+
 import React from "react";
-import { useState, useEffect, useCallback } from "react";
-import { Col, Row, Card, Tab, Nav, Container, Button } from "react-bootstrap";
+import toastr from "toastr";
 import logger from "sabio-debug";
+import PropTypes from "prop-types";
+import Pagination from "rc-pagination";
 import AutoService from "./AutoService";
+import locale from "rc-pagination/lib/locale/en_US";
 import AutoServiceViewMore from "./AutoServiceViewMore";
 import autoServiceService from "../../services/autoServicesService";
-import toastr from "toastr";
-import Pagination from "rc-pagination";
-import "rc-pagination/assets/index.css";
-import locale from "rc-pagination/lib/locale/en_US";
+
 import { Formik, Form, Field } from "formik";
 import { useNavigate } from "react-router-dom";
-import PropTypes from "prop-types";
-import "./autoService.css";
+import { useState, useEffect, useCallback } from "react";
+import { Button, Card, Col, Container, Nav, Row, Tab } from "react-bootstrap";
 
 const _logger = logger.extend("AutoServices");
 
