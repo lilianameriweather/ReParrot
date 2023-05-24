@@ -2,14 +2,14 @@ import React from "react";
 import { useState, useEffect } from "react";
 import logger from "sabio-debug";
 import {
-  Col,
-  Row,
-  Card,
-  Nav,
-  Tab,
-  Form,
   Button,
+  Card,
+  Col,
   Container,
+  Form,
+  Nav,
+  Row,
+  Tab,
 } from "react-bootstrap";
 import { Formik, Form as FormikForm, ErrorMessage, Field } from "formik";
 import autoServiceService from "services/autoServicesService";
@@ -160,7 +160,7 @@ function AutoServiceAdd() {
 
   useEffect(() => {
     if (state?.type === "AUTOSERVICEEDIT_VIEW" && state.payload) {
-      _logger("AutoService Change firing", state);
+      _logger("AutoService Change Firing", state);
 
       setFormData((prevState) => {
         const newFormData = { ...prevState };
