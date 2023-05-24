@@ -1,29 +1,35 @@
-import React, { useState } from "react";
-import {
-  Col,
-  Row,
-  Container,
-  Card,
-  Tab,
-  Nav,
-  ListGroup,
-  Button,
-} from "react-bootstrap";
+import "./autoService.css";
 import logger from "sabio-debug";
-import { useParams, useLocation } from "react-router-dom";
 import { useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import PropTypes from "prop-types";
+import React, { useState } from "react";
+import followerService from "services/followerService";
+
+import { 
+        useNavigate, 
+        useParams, 
+        useLocation
+} from "react-router-dom";
+
 import {
+  Button,
+  Card,
+  Col,
+  Container,
+  ListGroup,
+  Nav,
+  Row,
+  Tab,
+} from "react-bootstrap";
+
+import {
+  Clipboard,
   Clock,
   DollarSign,
-  Clipboard,
-  Tool,
   Filter,
   Info,
+  Tool,
 } from "react-feather";
-import PropTypes from "prop-types";
-import "./autoService.css";
-import followerService from "services/followerService";
 
 const _logger = logger.extend("AutoServiceViewMore");
 
@@ -59,6 +65,8 @@ const defaultService = {
     avatarUrl: "",
   },
 };
+
+//----------------Functional-Component--------------------
 
 function AutoServiceViewMore(props) {
   const { state } = useLocation();
@@ -113,7 +121,7 @@ function AutoServiceViewMore(props) {
     navigate(`/autoservices/${serviceData.id}/edit`, { state });
   };
 
-  ///----------------------Followers-----------------------------------
+  ///--------------Followers----------------------
 
   const onGetFollowCountSuccess = (response) => {
     const numOfFollowers = response.item;
