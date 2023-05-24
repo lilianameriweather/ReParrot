@@ -9,6 +9,7 @@ namespace Reparrot.Models.Domain.Followers
     public class Follower
     {
         public OrganizationBase Organization { get; set; }
+        
         public List<BaseUser> User { get; set; }
        
     }
