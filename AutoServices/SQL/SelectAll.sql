@@ -1,16 +1,16 @@
 
 CREATE proc [dbo].[Services_Select_All]
-				@PageIndex int
-				,@PageSize int
+			@PageIndex int
+			,@PageSize int
 
 /*-----------------------TEST-----------------------
 
-		DECLARE @PageIndex int = 0
-				,@PageSize int = 25
+	DECLARE @PageIndex int = 0
+			,@PageSize int = 25
 
-		EXECUTE dbo.Services_Select_All
-					@PageIndex
-					,@PageSize
+	EXECUTE dbo.Services_Select_All
+				@PageIndex
+				,@PageSize
 
 */
 
