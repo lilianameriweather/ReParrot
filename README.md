@@ -28,3 +28,10 @@ I had the opportunity to handle both Server Side and Client Side. Below you will
   • Collaborated with team members on code reviews and merged pull requests using Git and Github to provide and receive feedback for code optimization. 
 
   • Collaborated with team members using Agile methodology, including daily stand-ups and code reviews.	
+
+  ## Screenshots
+  
+<img width="412" alt="AutoService_ListView1" src="https://github.com/lilianameriweather/ReParrot/assets/78009370/9583731d-22f7-47e8-9b31-bc578823a8d0">
+<img width="412" alt="AutoService_ListView2" src="https://github.com/lilianameriweather/ReParrot/assets/78009370/2182afa6-e780-4e01-8998-8fae905ccb75">
+<img width="412" alt="AutoService_DetailedView" src="https://github.com/lilianameriweather/ReParrot/assets/78009370/7b928f3b-40b3-4c1f-b76b-98886e705e21">
+<img width="412" alt="AutoService_AddEdit Form" src="https://github.com/lilianameriweather/ReParrot/assets/78009370/8bedb1e4-9cd8-404b-a6d2-355a5eeb3e77">
